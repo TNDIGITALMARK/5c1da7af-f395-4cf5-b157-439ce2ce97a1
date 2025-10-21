@@ -18,8 +18,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Elegant Flora Boutique",
-  description: "Beautiful AI-powered website creation platform",
+  title: "CHUPAPI MUNAYNO - Viral Meme Generator & Community",
+  description: "Create, share, and explore the best Chupapi Munayno memes! Join the viral sensation with our meme generator, sound mixer, and community gallery.",
 };
 
 export default function RootLayout({
@@ -38,8 +38,8 @@ export default function RootLayout({
         <QueryProvider>
           <ThemeProvider
             attribute="class"
-            defaultTheme="system"
-            enableSystem
+            defaultTheme="dark"
+            enableSystem={false}
             disableTransitionOnChange
           >
             <TooltipProvider>
