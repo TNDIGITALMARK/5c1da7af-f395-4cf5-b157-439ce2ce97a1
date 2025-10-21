@@ -2,6 +2,7 @@
 
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import YouTubeVideo from '@/components/YouTubeVideo';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -34,6 +35,29 @@ export default function HomePage() {
           <div className="absolute bottom-4 left-4 bg-card/90 backdrop-blur-sm px-4 py-2 rounded-lg card-border">
             <p className="text-sm font-bold">
               🔥 <span className="text-primary">47,382</span> VISITORS TODAY
+            </p>
+          </div>
+        </section>
+
+        {/* Original CHUPAPI MUNAYNO Video Section */}
+        <section className="max-w-5xl mx-auto px-4 py-16">
+          <div className="text-center mb-8">
+            <h2 className="text-4xl md:text-5xl font-black gradient-text mb-4">
+              THE LEGENDARY ORIGINAL
+            </h2>
+            <p className="text-lg font-bold text-muted-foreground uppercase tracking-wide">
+              🔥 Where it all began 🔥
+            </p>
+          </div>
+
+          <YouTubeVideo
+            videoId="I8i8tNZTAfc"
+            title="CHUPAPI MUNAYNO - THE ORIGINAL"
+          />
+
+          <div className="mt-6 text-center">
+            <p className="text-sm font-bold text-primary">
+              👑 THE ONE THAT STARTED IT ALL 👑
             </p>
           </div>
         </section>
